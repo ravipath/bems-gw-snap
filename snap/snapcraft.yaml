@@ -11,7 +11,7 @@ parts:
   bems-gateway:
     # See 'snapcraft plugins'
     plugin: make
-    source: https://github.com/ravipath/bems-gateway.git
+    source: https://github.com/ravipath/bems-gw-json.git
 
 apps:
   bacrp:

@@ -24,7 +24,11 @@ parts:
 apps:
   bemsiot:
     command: bemsiot
+    passthrough:
+      autostart: bemsiot
     slots: [network, network-bind]
   bacrp:
     command: bacrp
+    passthrough:
+      autostart: bacrp
     slots: [network, network-bind]

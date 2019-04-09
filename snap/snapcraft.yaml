@@ -26,9 +26,9 @@ apps:
     command: bemsiot
     passthrough:
       autostart: bemsiot
-    slots: [network, network-bind]
+    plugs: [network, network-bind]
   bacrp:
     command: bacrp
     passthrough:
       autostart: bacrp
-    slots: [network, network-bind]
+    plugs: [network, network-bind]
